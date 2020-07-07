@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>うらめし！</title>
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+
+
+  <!-- Other CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous-basic.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/toppage_sp/logo.png">
+
+</head>
+
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <header>
+    <div id="header_in2">
+      <div class="container">
+        <div class="row">
+          <div class="logo_navi">
+            <div class="six columns logo">
+              <h1 class="sp_logo"><a href="index.html"><img src="images/search_pages_sp/logo2.png" alt="うらめし！のロゴ"></a></h1>
+            </div>
+            <div class="six columns navi">
+              <div class="sp_navi">
+                <img id="sp_navi_btn" src="images/toppage_sp/hbg_menu.png" alt="ナビ">
+                <ul class="sp_navi_li">
+                  <li><a href="area.html">エリア</a></li>
+                  <li><a href="genre.html">ジャンル</a></li>
+                  <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+              </div>
+              <div class="pc_navi">
+                <ul class="pc_navi_li">
+                  <li><a href="area.html">エリア</a></li>
+                  <li><a href="genre.html">ジャンル</a></li>
+                  <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="twelve columns search_sp">
+            <form>
+              <div class="area">
+                <i class="fas fa-map-marker-alt fa-lg area_icon"></i>
+                <select name="area_list" id="area_option">
+                  <option value="">エリアを選択</option>
+                  <option value="当代島">当代島</option>
+                  <option value="北栄">北栄</option>
+                  <option value="猫実">猫実</option>
+                  <option value="堀江">堀江</option>
+                  <option value="海楽">海楽</option>
+                  <option value="東野">東野</option>
+                  <option value="富士見">富士見</option>
+                  <option value="美浜">美浜</option>
+                  <option value="富岡">富岡</option>
+                  <option value="弁天">弁天</option>
+                  <option value="舞浜">舞浜</option>
+                  <option value="入船">入船</option>
+                  <option value="今川">今川</option>
+                  <option value="日の出">日の出</option>
+                  <option value="明海">明海</option>
+                  <option value="高洲">高洲</option>
+                </select>
+              </div>
+              <div class="keyword">
+                <a href="search_result.html"><i class="fas fa-search fa-lg search_icon"></i></a>
+                <input type="search" name="search" placeholder="ジャンル ランチ 店名など">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="content2">
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns">
+            <ul class="now_page">
+              <li><a href="index.html">トップ</a></li>
+              <li>＞</li>
+              <li><a href="search_result.html">検索条件</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="twelve columns">
+            <div id="keyword_search">
+              <div class="search_pc">
+                <input type="search" name="search" placeholder="">
+                <a href="search_result.html"><i class="fas fa-search fa-lg search_icon"></i></a>
+              </div>
+            </div>
+            <div id="search_result">
+              <div class="result_message">
+                <p>[〇〇　×　〇〇　×　〇〇〇〇]の検索結果</p>
+                <p>条件に一致したお店がX件見つかりました</p>
+              </div>
+              <h3 class="result_count">全X件<span>(1~10件)</span></h3>
+              <div class="rstr_box">
+                <div class="rstr_box_left">
+                  <div class="rstr_name_sp">
+                    <p>ジャンル</p>
+                    <h3><a href="rstr_top.html">店名</a></h3>
+                  </div>
+                  <div class="food_img">
+                    <img class="display_img" src="images/italian.jpg" alt="料理の写真">
+                    <ul class="list_img">
+                      <li><img src="images/italian.jpg" alt="料理の写真"></li>
+                      <li><img src="images/italian2.jpg" alt="料理の写真"></li>
+                      <li><img src="images/italian3.jpg" alt="料理の写真"></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="rstr_box_right">
+                  <div class="rstr_name_pc">
+                    <h3><a href="rstr_top.html">店名</a></h3>
+                    <p>ジャンル</p>
+                  </div>
+                  <div class="location_sp">
+                    <img src="images/search_pages_sp/location.jpg" alt="最寄り駅">
+                    <p>〇〇線〇〇駅　徒歩X分</p>
+                  </div>
+                  <div class="location_pc">
+                    <p>浦安市〇〇〇X-XX-XX<br>(〇〇線〇〇駅徒歩X分)</p>
+                  </div>
+                  <div class="price">
+                    <p><img src="images/search_pages_pc/sun.jpg" alt="昼">￥X,XXX～￥X,XXX</p>
+                    <p><img src="images/search_pages_pc/moon.jpg" alt="夜">￥X,XXX～￥X,XXX</p>
+                  </div>
+                  <div class="situation">
+                    <ul>
+                      <li>個室</li>
+                      <li>女子会におすすめ</li>
+                      <li>記念日におすすめ</li>
+                    </ul>
+                  </div>
+                  <div class="recommend_course">
+                    <h4>おすすめコース</h4>
+                    <div class="course_inner">
+                      <div class="course_name">
+                        <p>1日3組様まで！【2時間飲放題】国産鶏もも肉のグリルを含む&lt;7品&gt;</p>
+                        <p>他X件</p>
+                      </div>
+                      <div class="course_price_btn">
+                        <p>4,000円<span>(税抜)/1名様</span></p>
+                        <a href="tel:XXXXXXXXXXX">電話予約する</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rstr_box">
+                <div class="rstr_box_left">
+                  <div class="rstr_name_sp">
+                    <p>ジャンル</p>
+                    <h3><a href="rstr_top.html">店名</a></h3>
+                  </div>
+                  <div class="food_img">
+                    <img class="display_img" src="images/italian.jpg" alt="料理の写真">
+                    <ul class="list_img">
+                      <li><img src="images/italian.jpg" alt="料理の写真"></li>
+                      <li><img src="images/italian2.jpg" alt="料理の写真"></li>
+                      <li><img src="images/italian3.jpg" alt="料理の写真"></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="rstr_box_right">
+                  <div class="rstr_name_pc">
+                    <h3><a href="rstr_top.html">店名</a></h3>
+                    <p>ジャンル</p>
+                  </div>
+                  <div class="location_sp">
+                    <img src="images/search_pages_sp/location.jpg" alt="最寄り駅">
+                    <p>〇〇線〇〇駅　徒歩X分</p>
+                  </div>
+                  <div class="location_pc">
+                    <p>浦安市〇〇〇X-XX-XX<br>(〇〇線〇〇駅徒歩X分)</p>
+                  </div>
+                  <div class="price">
+                    <p><img src="images/search_pages_pc/sun.jpg" alt="昼">￥X,XXX～￥X,XXX</p>
+                    <p><img src="images/search_pages_pc/moon.jpg" alt="夜">￥X,XXX～￥X,XXX</p>
+                  </div>
+                  <div class="situation">
+                    <ul>
+                      <li>個室</li>
+                      <li>女子会におすすめ</li>
+                      <li>記念日におすすめ</li>
+                    </ul>
+                  </div>
+                  <div class="recommend_course">
+                    <h4>おすすめコース</h4>
+                    <div class="course_inner">
+                      <div class="course_name">
+                        <p>1日3組様まで！【2時間飲放題】国産鶏もも肉のグリルを含む&lt;7品&gt;</p>
+                        <p>他X件</p>
+                      </div>
+                      <div class="course_price_btn">
+                        <p>4,000円<span>(税抜)/1名様</span></p>
+                        <a href="tel:XXXXXXXXXXX">電話予約する</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rstr_box">
+                <div class="rstr_box_left">
+                  <div class="rstr_name_sp">
+                    <p>ジャンル</p>
+                    <h3><a href="rstr_top.html">店名</a></h3>
+                  </div>
+                  <div class="food_img">
+                    <img class="display_img" src="images/italian.jpg" alt="料理の写真">
+                    <ul class="list_img">
+                      <li><img src="images/italian.jpg" alt="料理の写真"></li>
+                      <li><img src="images/italian2.jpg" alt="料理の写真"></li>
+                      <li><img src="images/italian3.jpg" alt="料理の写真"></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="rstr_box_right">
+                  <div class="rstr_name_pc">
+                    <h3><a href="rstr_top.html">店名</a></h3>
+                    <p>ジャンル</p>
+                  </div>
+                  <div class="location_sp">
+                    <img src="images/search_pages_sp/location.jpg" alt="最寄り駅">
+                    <p>〇〇線〇〇駅　徒歩X分</p>
+                  </div>
+                  <div class="location_pc">
+                    <p>浦安市〇〇〇X-XX-XX<br>(〇〇線〇〇駅徒歩X分)</p>
+                  </div>
+                  <div class="price">
+                    <p><img src="images/search_pages_pc/sun.jpg" alt="昼">￥X,XXX～￥X,XXX</p>
+                    <p><img src="images/search_pages_pc/moon.jpg" alt="夜">￥X,XXX～￥X,XXX</p>
+                  </div>
+                  <div class="situation">
+                    <ul>
+                      <li>個室</li>
+                      <li>女子会におすすめ</li>
+                      <li>記念日におすすめ</li>
+                    </ul>
+                  </div>
+                  <div class="recommend_course">
+                    <h4>おすすめコース</h4>
+                    <div class="course_inner">
+                      <div class="course_name">
+                        <p>1日3組様まで！【2時間飲放題】国産鶏もも肉のグリルを含む&lt;7品&gt;</p>
+                        <p>他X件</p>
+                      </div>
+                      <div class="course_price_btn">
+                        <p>4,000円<span>(税抜)/1名様</span></p>
+                        <a href="tel:XXXXXXXXXXX">電話予約する</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rstr_box">
+                <div class="rstr_box_left">
+                  <div class="rstr_name_sp">
+                    <p>ジャンル</p>
+                    <h3><a href="rstr_top.html">店名</a></h3>
+                  </div>
+                  <div class="food_img">
+                    <img class="display_img" src="images/italian.jpg" alt="料理の写真">
+                    <ul class="list_img">
+                      <li><img src="images/italian.jpg" alt="料理の写真"></li>
+                      <li><img src="images/italian2.jpg" alt="料理の写真"></li>
+                      <li><img src="images/italian3.jpg" alt="料理の写真"></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="rstr_box_right">
+                  <div class="rstr_name_pc">
+                    <h3><a href="rstr_top.html">店名</a></h3>
+                    <p>ジャンル</p>
+                  </div>
+                  <div class="location_sp">
+                    <img src="images/search_pages_sp/location.jpg" alt="最寄り駅">
+                    <p>〇〇線〇〇駅　徒歩X分</p>
+                  </div>
+                  <div class="location_pc">
+                    <p>浦安市〇〇〇X-XX-XX<br>(〇〇線〇〇駅徒歩X分)</p>
+                  </div>
+                  <div class="price">
+                    <p><img src="images/search_pages_pc/sun.jpg" alt="昼">￥X,XXX～￥X,XXX</p>
+                    <p><img src="images/search_pages_pc/moon.jpg" alt="夜">￥X,XXX～￥X,XXX</p>
+                  </div>
+                  <div class="situation">
+                    <ul>
+                      <li>個室</li>
+                      <li>女子会におすすめ</li>
+                      <li>記念日におすすめ</li>
+                    </ul>
+                  </div>
+                  <div class="recommend_course">
+                    <h4>おすすめコース</h4>
+                    <div class="course_inner">
+                      <div class="course_name">
+                        <p>1日3組様まで！【2時間飲放題】国産鶏もも肉のグリルを含む&lt;7品&gt;</p>
+                        <p>他X件</p>
+                      </div>
+                      <div class="course_price_btn">
+                        <p>4,000円<span>(税抜)/1名様</span></p>
+                        <a href="tel:XXXXXXXXXXX">電話予約する</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rstr_box">
+                <div class="rstr_box_left">
+                  <div class="rstr_name_sp">
+                    <p>ジャンル</p>
+                    <h3><a href="rstr_top.html">店名</a></h3>
+                  </div>
+                  <div class="food_img">
+                    <img class="display_img" src="images/italian.jpg" alt="料理の写真">
+                    <ul class="list_img">
+                      <li><img src="images/italian.jpg" alt="料理の写真"></li>
+                      <li><img src="images/italian2.jpg" alt="料理の写真"></li>
+                      <li><img src="images/italian3.jpg" alt="料理の写真"></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="rstr_box_right">
+                  <div class="rstr_name_pc">
+                    <h3><a href="rstr_top.html">店名</a></h3>
+                    <p>ジャンル</p>
+                  </div>
+                  <div class="location_sp">
+                    <img src="images/search_pages_sp/location.jpg" alt="最寄り駅">
+                    <p>〇〇線〇〇駅　徒歩X分</p>
+                  </div>
+                  <div class="location_pc">
+                    <p>浦安市〇〇〇X-XX-XX<br>(〇〇線〇〇駅徒歩X分)</p>
+                  </div>
+                  <div class="price">
+                    <p><img src="images/search_pages_pc/sun.jpg" alt="昼">￥X,XXX～￥X,XXX</p>
+                    <p><img src="images/search_pages_pc/moon.jpg" alt="夜">￥X,XXX～￥X,XXX</p>
+                  </div>
+                  <div class="situation">
+                    <ul>
+                      <li>個室</li>
+                      <li>女子会におすすめ</li>
+                      <li>記念日におすすめ</li>
+                    </ul>
+                  </div>
+                  <div class="recommend_course">
+                    <h4>おすすめコース</h4>
+                    <div class="course_inner">
+                      <div class="course_name">
+                        <p>1日3組様まで！【2時間飲放題】国産鶏もも肉のグリルを含む&lt;7品&gt;</p>
+                        <p>他X件</p>
+                      </div>
+                      <div class="course_price_btn">
+                        <p>4,000円<span>(税抜)/1名様</span></p>
+                        <a href="tel:XXXXXXXXXXX">電話予約する</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="pager_sp">
+              <ul>
+                <li class="page_arrow"><a href="#">＜</a></li>
+                <li class="page_number">1</li>
+                <li class="page_slash">/</li>
+                <li class="page_number">5</li>
+                <li class="page_arrow"><a href="#">＞</a></li>
+              </ul>
+            </div>
+            <div id="pager_pc">
+              <ul>
+                <li class="page_pc_arrow"><a href="#">前の10件<span>＜</span></a></li>
+                <li class="page_pc_number page1 active"><a href="search_result.html?page=1">1</a></li>
+                <li class="page_pc_number page2"><a href="search_result.html?page=2">2</a></li>
+                <li class="page_pc_number page3"><a href="search_result.html?page=3">3</a></li>
+                <li class="page_pc_number page4"><a href="search_result.html?page=4">4</a></li>
+                <li class="page_pc_number page5"><a href="search_result.html?page=5">5</a></li>
+                <li class="page_pc_arrow"><a href="#"><span>＞</span>次の10件</a></li>
+              </ul>
+            </div>
+            <div id="now_page_bottom">
+              <ul>
+                <li><a href="index.html">トップ</a></li>
+                <li>＞</li>
+                <li><a href="search_result.html">検索条件</a></li>
+              </ul>
+            </div>
+            <div id="page_top">
+              <a href="header"><img src="images/toppage_sp/pagetop_sp.jpg" alt="PAGE TOP"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <ul>
+            <li><a href="sitemap.html">サイトマップ</a></li>
+            <li><a href="privacy_policy.html">プライバシーポリシー</a></li>
+            <li><a href="tos.html">利用規約</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+          </ul>
+          <div class="logo_copy">
+            <img src="images/toppage_sp/logo.png" alt="うらなび！のロゴ">
+            <p><small>Copyright (c) Urameshi.com, Inc. All Rights Reserved.</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/multiple-select/1.2.3/multiple-select.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.13/clipboard.min.js"></script>
+  <!--Owl Carousel JS-->
+  <script src="owlcarousel/original.js"></script>
+
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>

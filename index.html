@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>うらめし！</title>
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+
+
+  <!-- Other CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous-basic.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/toppage_sp/logo.png">
+
+</head>
+
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <header>
+    <div id="header_in">
+      <div class="container">
+        <div class="row">
+          <div class="logo_navi">
+            <div class="six columns logo">
+              <h1 class="sp_logo"><a href="index.html"><img src="images/toppage_sp/logo.png" alt="うらめし！のロゴ"></a></h1>
+            </div>
+            <div class="six columns navi">
+              <div class="sp_navi">
+                <img id="sp_navi_btn" src="images/toppage_sp/hbg_menu.png" alt="ナビ">
+                <ul class="sp_navi_li">
+                  <li><a href="area.html">エリア</a></li>
+                  <li><a href="genre.html">ジャンル</a></li>
+                  <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+              </div>
+              <div class="pc_navi">
+                <ul class="pc_navi_li">
+                  <li><a href="area.html">エリア</a></li>
+                  <li><a href="genre.html">ジャンル</a></li>
+                  <li><a href="contact.html">お問い合わせ</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="twelve columns title">
+            <img src="images/toppage_sp/title.png" alt="浦安市のグルメ情報サイトうらめし！">
+          </div>
+        </div>
+        <div class="row">
+          <div class="twelve columns search_sp">
+            <form>
+              <div class="area">
+                <i class="fas fa-map-marker-alt fa-lg area_icon"></i>
+                <select name="area_list" id="area_option">
+                  <option value="">エリア</option>
+                  <option value="当代島">当代島</option>
+                  <option value="北栄">北栄</option>
+                  <option value="猫実">猫実</option>
+                  <option value="堀江">堀江</option>
+                  <option value="海楽">海楽</option>
+                  <option value="東野">東野</option>
+                  <option value="富士見">富士見</option>
+                  <option value="美浜">美浜</option>
+                  <option value="富岡">富岡</option>
+                  <option value="弁天">弁天</option>
+                  <option value="舞浜">舞浜</option>
+                  <option value="入船">入船</option>
+                  <option value="今川">今川</option>
+                  <option value="日の出">日の出</option>
+                  <option value="明海">明海</option>
+                  <option value="高洲">高洲</option>
+                </select>
+              </div>
+              <div class="keyword">
+                <i class="fas fa-pencil-alt fa-lg keyword_icon"></i>
+                <input type="search" name="search" placeholder="ジャンル ランチ 店名など">
+              </div>
+              <div class="search_btn">
+                <a href="search_result.html">検索する</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div id="content">
+      <div class="container">
+        <div class="row">
+          <div class="twelve columns">
+            <div id="keyword_search">
+              <h3>キーワードで探す</h3>
+              <div class="search_pc">
+                <input type="search" name="search" placeholder="ジャンル ランチ 店名など">
+                <a href="search_result.html">検索</a>
+              </div>
+            </div>
+            <div id="recent_checked">
+              <h3>最近見たお店</h3>
+              <ul>
+                <li>
+                  <a href="rstr_top.html">
+                    <dl>
+                      <dt><img src="images/toppage_pc/square.jpg" alt="店の写真"></dt>
+                      <dd class="rstr_name">店名</dd>
+                      <dd class="rstr_place">場所</dd>
+                    </dl>
+                  </a>
+                </li>
+                <li>
+                  <a href="rstr_top.html">
+                    <dl>
+                      <dt><img src="images/toppage_pc/square.jpg" alt="店の写真"></dt>
+                      <dd class="rstr_name">店名</dd>
+                      <dd class="rstr_place">場所</dd>
+                    </dl>
+                  </a>
+                </li>
+                <li>
+                  <a href="rstr_top.html">
+                    <dl>
+                      <dt><img src="images/toppage_pc/square.jpg" alt="店の写真"></dt>
+                      <dd class="rstr_name">店名</dd>
+                      <dd class="rstr_place">場所</dd>
+                    </dl>
+                  </a>
+                </li>
+                <li>
+                  <a href="rstr_top.html">
+                    <dl>
+                      <dt><img src="images/toppage_pc/square.jpg" alt="店の写真"></dt>
+                      <dd class="rstr_name">店名</dd>
+                      <dd class="rstr_place">場所</dd>
+                    </dl>
+                  </a>
+                </li>
+                <li>
+                  <a href="rstr_top.html">
+                    <dl>
+                      <dt><img src="images/toppage_pc/square.jpg" alt="店の写真"></dt>
+                      <dd class="rstr_name">店名</dd>
+                      <dd class="rstr_place">場所</dd>
+                    </dl>
+                  </a>
+                </li>
+                <li>
+                  <a href="rstr_top.html">
+                    <dl>
+                      <dt><img src="images/toppage_pc/square.jpg" alt="店の写真"></dt>
+                      <dd class="rstr_name">店名</dd>
+                      <dd class="rstr_place">場所</dd>
+                    </dl>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div id="area_search">
+              <h3>エリアで探す</h3>
+              <div class="area_search_in">
+                <ul>
+                  <li><a href="search_result.html">当代島</a></li>
+                  <li><a href="search_result.html">北栄</a></li>
+                  <li><a href="search_result.html">猫実</a></li>
+                  <li><a href="search_result.html">堀江</a></li>
+                  <li><a href="search_result.html">海楽</a></li>
+                  <li><a href="search_result.html">東野</a></li>
+                  <li><a href="search_result.html">富士見</a></li>
+                  <li><a href="search_result.html">美浜</a></li>
+                </ul>
+                <ul>
+                  <li><a href="search_result.html">富岡</a></li>
+                  <li><a href="search_result.html">弁天</a></li>
+                  <li><a href="search_result.html">舞浜</a></li>
+                  <li><a href="search_result.html">入船</a></li>
+                  <li><a href="search_result.html">今川</a></li>
+                  <li><a href="search_result.html">日の出</a></li>
+                  <li><a href="search_result.html">明海</a></li>
+                  <li><a href="search_result.html">高洲</a></li>
+                </ul>
+                <img src="images/urayasu_map.png" alt="浦安の地図">
+              </div>
+            </div>
+            <div id="genre_search">
+              <h3>料理ジャンルで探す</h3>
+              <div class="main_genre">
+                <ul>
+                  <li class="genre1">
+                    <a href="search_result.html">
+                      <div>
+                        <img src="images/sushi.jpg" alt="寿司">
+                        <div>
+                          <p>寿司</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="genre2">
+                    <a href="search_result.html">
+                      <div>
+                        <img src="images/yakitori.jpg" alt="居酒屋・焼き鳥">
+                        <p>居酒屋・焼き鳥</p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="genre3">
+                    <a href="search_result.html">
+                      <div>
+                        <img src="images/yoshoku.jpg" alt="洋食">
+                        <p>洋食</p>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="other_genre">
+                <p>その他のジャンル</p>
+                <ul>
+                  <li><a href="search_result.html">和食</a></li>
+                  <li><a href="search_result.html">中華・ラーメン</a></li>
+                  <li><a href="search_result.html">イタリアン</a></li>
+                  <li><a href="search_result.html">フレンチ</a></li>
+                  <li><a href="search_result.html">しゃぶしゃぶ</a></li>
+                  <li><a href="search_result.html">かに料理</a></li>
+                  <li><a href="search_result.html">天ぷら</a></li>
+                  <li><a href="search_result.html">パン・カフェ・スイーツ</a></li>
+                  <li><a href="search_result.html">アジア・エスニック</a></li>
+                  <li><a href="search_result.html">そば・うどん</a></li>
+                  <li><a href="search_result.html">ステーキ</a></li>
+                  <li><a href="search_result.html">鍋料理</a></li>
+                  <li><a href="search_result.html">カレー</a></li>
+                  <li><a href="search_result.html">刺し身</a></li>
+                  <li><a href="search_result.html">バイキング・ビュッフェ</a></li>
+                  <li><a href="search_result.html">鉄板焼き</a></li>
+                  <li><a href="search_result.html">バー・バル</a></li>
+                  <li><a href="search_result.html">焼肉</a></li>
+                  <li><a href="search_result.html">すき焼き</a></li>
+                  <li><a href="search_result.html">ふぐ料理</a></li>
+                  <li><a href="search_result.html">その他</a></li>
+                </ul>
+              </div>
+            </div>
+            <div id="condition_search">
+              <h3>条件・こだわり</h3>
+              <div class="other_condition">
+                <ul>
+                  <li><a href="search_result.html">子連れOK</a></li>
+                  <li><a href="search_result.html">個室</a></li>
+                  <li><a href="search_result.html">大人数で宴会</a></li>
+                  <li><a href="search_result.html">女子会におすすめ</a></li>
+                  <li><a href="search_result.html">お一人様歓迎</a></li>
+                  <li><a href="search_result.html">深夜営業</a></li>
+                  <li><a href="search_result.html">24時間営業</a></li>
+                  <li><a href="search_result.html">誕生日特典</a></li>
+                  <li><a href="search_result.html">飲み放題</a></li>
+                  <li><a href="search_result.html">記念日におすすめ</a></li>
+                  <li><a href="search_result.html">テイクアウト</a></li>
+                  <li><a href="search_result.html">デートに使える</a></li>
+                  <li><a href="search_result.html">食べ放題</a></li>
+                  <li><a href="search_result.html">駐車場有</a></li>
+                </ul>
+              </div>
+            </div>
+            <div id="news">
+              <h3>お知らせ</h3>
+              <ul>
+                <li>
+                  <time datetime="2020-xx-xx">2020年XX月XX日</time>
+                  <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </li>
+                <li>
+                  <time datetime="2020-xx-xx">2020年XX月XX日</time>
+                  <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </li>
+                <li>
+                  <time datetime="2020-xx-xx">2020年XX月XX日</time>
+                  <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </li>
+                <li>
+                  <time datetime="2020-xx-xx">2020年XX月XX日</time>
+                  <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </li>
+                <li>
+                  <time datetime="2020-xx-xx">2020年XX月XX日</time>
+                  <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </li>
+                <li>
+                  <time datetime="2020-xx-xx">2020年XX月XX日</time>
+                  <p>テキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                </li>
+              </ul>
+            </div>
+            <div id="page_top">
+              <a href="header" ><img src="images/toppage_sp/pagetop_sp.jpg" alt="PAGE TOP"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+          <ul>
+            <li><a href="sitemap.html">サイトマップ</a></li>
+            <li><a href="privacy_policy.html">プライバシーポリシー</a></li>
+            <li><a href="tos.html">利用規約</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+          </ul>
+          <div class="logo_copy">
+            <img src="images/toppage_sp/logo.png" alt="うらなび！のロゴ">
+            <p><small>Copyright (c) Urameshi.com, Inc. All Rights Reserved.</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- jQuery
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/multiple-select/1.2.3/multiple-select.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/luminous-lightbox/2.3.2/luminous.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/clipboard.js/1.5.13/clipboard.min.js"></script>
+  <!--Owl Carousel JS-->
+  <script src="owlcarousel/original.js"></script>
+
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>
